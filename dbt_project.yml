@@ -44,5 +44,4 @@ models:
       +materialized: view
     stg_view:
       +materialized: view
-    doc:
-      +materialized: table
+   
