@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: DBT_SOURCE
+    database: DB4
+    schema: DBT_SOURCE
+    tables:
+      - name: customer_data01
+      - name: customer_data02
+      - name: customer_data03

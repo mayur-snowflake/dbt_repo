@@ -41,4 +41,8 @@ models:
     example:
       +materialized: table
     stg_data:
+      +materialized: view
+    stg_view:
+      +materialized: view
+    doc:
       +materialized: table
